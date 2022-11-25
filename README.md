@@ -1,1 +1,1 @@
-# tyoescriptcourse
+# typescriptcourse
