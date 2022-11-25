@@ -1,11 +1,8 @@
-type Combinable = number | string; //Custom Type Alias using a union type
-type ConversionDescriptor = "as-number" | "as-string"; //Custom Type Alias using union type combined with literal types
-
 //Union types with Literal Types
 function combine(
-  input1: Combinable,
-  input2: Combinable,
-  resultConversion: ConversionDescriptor
+  input1: number | string,
+  input2: number | string,
+  resultConversion: "as-number" | "as-string" //Union types combined with literal types
 ) {
   let result;
 
